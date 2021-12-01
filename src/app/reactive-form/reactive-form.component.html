@@ -1,0 +1,23 @@
+<form [formGroup]="employeeForm" (submit)="onSubmit()">
+    <label>Name :
+        <input formControlName="Name"></label><br>
+    <!-- <label>Last Name :
+        <input formControlName="lastName"></label> -->
+    <!-- <h4>Adress1</h4> -->
+    <!-- <div formGroupName="address1"> -->
+
+
+        <br><label>Address1 :
+        <input formControlName="Address1"></label><br>
+
+        <br><label>Address2 :
+            <input formControlName="Address2"></label><form><br>
+        
+        <br><label>City :
+            <input formControlName="city"></label><br>
+
+        <br><label>State :
+            <input formControlName="state"></label><br>
+    </div>
+    <br>&emsp;&emsp;&emsp;&emsp;<button>Submit</button>
+</form>
